@@ -1,0 +1,159 @@
+.black-bg {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+   
+}
+
+.white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.show-modal{
+    visibility: visible;
+    opacity: 1;
+}
+
+body{
+    margin: 0;
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    height: 50px;   
+    width: 100%;
+    background-color: rgb(30, 33, 36);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+/* TODO:메뉴들이 수직 중앙 정렬 되지 않는 이유를 찾아야함. */
+
+nav ul {
+    display: flex;
+    list-style-type: none;    
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav ul li {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+
+#logo {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#search {
+    margin: 15px 30px;
+}
+
+.products-Container{
+    padding: 20px 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-Container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#cart-title {
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.cart-Area {
+    background-color: lightgray;
+    margin: auto;
+    padding-top: 30px;
+    width: 95%;
+    height:430px;
+}
+
+.drag-Area {
+    display: flex;
+    background-color: black;
+    margin: auto;
+    width: 90%;
+    height:350px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: rgb(244, 244, 244);
+}
+
+#drag-text {
+    color: white;
+    font-size: 18px;
+    
+}
+.buy {
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 55px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 17px;
+    padding-top: 8px;
+}
+
+.company-name{
+    font-size: 14px;
+    padding-top: 5px;
+    color: gray;
+}
+
+.price {
+    padding-top: 5px;
+}
+
+.product-Container, .cart-Container {
+    background-color: white;
+    padding: 7px;
+}
+
+.buyArea{
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+
+.totalBuy {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+
